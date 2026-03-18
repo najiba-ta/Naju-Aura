@@ -1,163 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naju Aura | Timeless Balance</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Plus+Jakarta+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NajuAura | Brahmanbaria's Premium Boutique</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-[#E5E2DC] text-[#2D2D2D] font-['Plus_Jakarta_Sans'] antialiased">
+<body class="bg-[#fafaf9] text-[#1c120c] font-sans antialiased">
 
-    <nav class="fixed top-0 w-full z-50 bg-[#1A1A1A]/80 backdrop-blur-xl border-b border-white/[0.05] px-6 md:px-20 py-6 flex justify-between items-center transition-all duration-500">
-        <div class="text-2xl md:text-3xl font-['Cormorant_Garamond'] tracking-[0.2em] uppercase text-white">
-            Naju <span class="text-[#C5A059] font-semibold italic">Aura</span>
+  <nav class="fixed top-0 w-full bg-[#fafaf9]/90 backdrop-blur-md border-b border-[#e8d5c4] px-6 md:px-20 py-5 flex justify-between items-center z-50">
+    <div class="text-2xl font-bold tracking-tight">
+      Naju <span class="text-[#c19a6b] italic font-serif">Aura</span>
+    </div>
+    <div class="hidden xl:flex space-x-12 text-[10px] uppercase font-bold tracking-[0.3em] text-[#5c4033]">
+      <a href="#couture" class="hover:text-[#c19a6b] transition-colors">Couture</a>
+      <a href="#beauty" class="hover:text-[#c19a6b] transition-colors">Beauty</a>
+      <a href="#outlets" class="hover:text-[#c19a6b] transition-colors">Outlets</a>
+      <a href="#footwear" class="hover:text-[#c19a6b] transition-colors">Footwear</a>
+    </div>
+    <div class="flex items-center space-x-6">
+      <div class="relative cursor-pointer group">
+        <i class="fa-solid fa-cart-shopping text-lg group-hover:text-[#c19a6b] transition-colors"></i>
+        <span class="absolute -top-2 -right-2 bg-[#c19a6b] text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full">0</span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative h-screen flex items-center justify-center overflow-hidden bg-[#eee4db]">
+    <img src="./hero.png" class="absolute w-full h-full object-cover opacity-60">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#fafaf9]"></div>
+    <div class="relative text-center px-6">
+      <p class="text-[#8c6d4f] uppercase text-[10px] mb-6 font-bold tracking-[0.5em]">Brahmanbaria • Est. 2026</p>
+      <h1 class="text-6xl md:text-9xl text-[#1c120c] italic font-serif font-bold mb-10 leading-none">
+        Aura of <br><span class="font-normal not-italic">Perfection</span>
+      </h1>
+      <a href="#couture" class="inline-block px-14 py-4 text-white font-bold uppercase text-[10px] tracking-widest shadow-xl rounded-sm bg-gradient-to-br from-[#c19a6b] to-[#a67c52] hover:from-[#a67c52] hover:to-[#1c120c] transition-all duration-500 transform hover:-translate-y-1">
+        Explore Collection
+      </a>
+    </div>
+  </section>
+
+  <section id="couture" class="py-32 px-6 md:px-20 max-w-7xl mx-auto">
+    <div class="text-center mb-20">
+      <h2 class="text-4xl md:text-6xl font-serif italic mb-4">Aura Couture</h2>
+      <div class="w-20 h-0.5 bg-[#c19a6b] mx-auto"></div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-[#f0e6dd]">
+        <div class="h-80 w-full p-8 bg-[#fcf3eb] overflow-hidden">
+          <img src="./Velvet Gown.png" class="w-full h-full object-contain transform group-hover:scale-110 transition duration-1000">
         </div>
-        
-        <div class="hidden xl:flex space-x-12 text-[10px] tracking-[0.4em] uppercase font-bold text-gray-400">
-            <a href="#couture" class="hover:text-white transition-all">Couture</a>
-            <a href="#beauty" class="hover:text-white transition-all">Beauty</a>
-            <a href="#footwear" class="hover:text-white transition-all">Footwear</a>
+        <div class="p-8 text-center">
+          <h3 class="text-lg font-medium mb-1 italic">Velvet Evening Gown</h3>
+          <p class="text-xl font-serif font-bold mb-6 text-[#8c6d4f]">45,000 TK</p>
+          <button class="w-full py-4 text-white uppercase text-[10px] font-bold tracking-widest rounded-xl bg-gradient-to-r from-[#c19a6b] to-[#a67c52] hover:from-[#a67c52] hover:to-[#1c120c] transition-all shadow-md">Add to Bag</button>
+        </div>
+      </div>
+      <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-[#f0e6dd]">
+        <div class="h-80 w-full p-8 bg-[#fcf3eb] overflow-hidden">
+          <img src="./Dress.png" class="w-full h-full object-contain transform group-hover:scale-110 transition duration-1000">
+        </div>
+        <div class="p-8 text-center">
+          <h3 class="text-lg font-medium mb-1 italic">Silk Cocktail Dress</h3>
+          <p class="text-xl font-serif font-bold mb-6 text-[#8c6d4f]">38,000 TK</p>
+          <button class="w-full py-4 text-white uppercase text-[10px] font-bold tracking-widest rounded-xl bg-gradient-to-r from-[#c19a6b] to-[#a67c52] hover:from-[#a67c52] hover:to-[#1c120c] transition-all shadow-md">Add to Bag</button>
+        </div>
+      </div>
+      <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-[#f0e6dd]">
+        <div class="h-80 w-full p-8 bg-[#fcf3eb] overflow-hidden">
+          <img src="./skirt.png" class="w-full h-full object-contain transform group-hover:scale-110 transition duration-1000">
+        </div>
+        <div class="p-8 text-center">
+          <h3 class="text-lg font-medium mb-1 italic">Pleated Satin Skirt</h3>
+          <p class="text-xl font-serif font-bold mb-6 text-[#8c6d4f]">12,500 TK</p>
+          <button class="w-full py-4 text-white uppercase text-[10px] font-bold tracking-widest rounded-xl bg-gradient-to-r from-[#c19a6b] to-[#a67c52] hover:from-[#a67c52] hover:to-[#1c120c] transition-all shadow-md">Add to Bag</button>
+        </div>
+      </div>
+      <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-[#f0e6dd]">
+        <div class="h-80 w-full p-8 bg-[#fcf3eb] overflow-hidden">
+          <img src="./abaya.png" class="w-full h-full object-contain transform group-hover:scale-110 transition duration-1000">
+        </div>
+        <div class="p-8 text-center">
+          <h3 class="text-lg font-medium mb-1 italic">Golden Silk Abaya</h3>
+          <p class="text-xl font-serif font-bold mb-6 text-[#8c6d4f]">28,000 TK</p>
+          <button class="w-full py-4 text-white uppercase text-[10px] font-bold tracking-widest rounded-xl bg-gradient-to-r from-[#c19a6b] to-[#a67c52] hover:from-[#a67c52] hover:to-[#1c120c] transition-all shadow-md">Add to Bag</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="beauty" class="py-32 px-6 md:px-20 bg-[#f7efe9]">
+    <div class="max-w-7xl mx-auto mb-20 text-center">
+      <h2 class="text-4xl md:text-5xl font-serif italic mb-4">The Aura Radiance</h2>
+      <p class="text-[#6b4f3a] text-sm tracking-wide">Premium skincare defined by clinical purity.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div class="group bg-white p-6 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-[#e8d5c4] text-center">
+        <div class="h-64 mb-6 bg-[#fdf8f4] rounded-2xl overflow-hidden">
+          <img src="./serum.png" class="w-full h-full object-contain transform group-hover:scale-105 transition duration-700">
+        </div>
+        <h3 class="text-xl font-serif italic mb-1">Aura Glow Serum</h3>
+        <p class="text-[#c19a6b] text-[10px] uppercase font-bold tracking-widest mb-6">Active Repair</p>
+        <button class="w-full py-3 text-white uppercase text-[10px] font-bold tracking-widest rounded-lg bg-gradient-to-r from-[#1c120c] to-[#3d2b1f] hover:from-[#c19a6b] hover:to-[#a67c52] transition-all duration-500">Add to Bag</button>
+      </div>
+      <div class="group bg-white p-6 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-[#e8d5c4] text-center">
+        <div class="h-64 mb-6 bg-[#fdf8f4] rounded-2xl overflow-hidden">
+          <img src="./lipstick.png" class="w-full h-full object-contain transform group-hover:scale-105 transition duration-700">
+        </div>
+        <h3 class="text-xl font-serif italic mb-1">Velvet Crimson</h3>
+        <p class="text-[#c19a6b] text-[10px] uppercase font-bold tracking-widest mb-6">Matte Lipstick</p>
+        <button class="w-full py-3 text-white uppercase text-[10px] font-bold tracking-widest rounded-lg bg-gradient-to-r from-[#1c120c] to-[#3d2b1f] hover:from-[#c19a6b] hover:to-[#a67c52] transition-all duration-500">Add to Bag</button>
+      </div>
+      <div class="group bg-white p-6 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-[#e8d5c4] text-center">
+        <div class="h-64 mb-6 bg-[#fdf8f4] rounded-2xl overflow-hidden">
+          <img src="./pearl.png" class="w-full h-full object-contain transform group-hover:scale-105 transition duration-700">
+        </div>
+        <h3 class="text-xl font-serif italic mb-1">Pearl Complexion</h3>
+        <p class="text-[#c19a6b] text-[10px] uppercase font-bold tracking-widest mb-6">Radiant Pearl</p>
+        <button class="w-full py-3 text-white uppercase text-[10px] font-bold tracking-widest rounded-lg bg-gradient-to-r from-[#1c120c] to-[#3d2b1f] hover:from-[#c19a6b] hover:to-[#a67c52] transition-all duration-500">Add to Bag</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="outlets" class="py-32 px-6 md:px-20 max-w-7xl mx-auto">
+  <div class="grid lg:grid-cols-2 gap-16 items-center">
+    
+    <div class="grid grid-cols-12 grid-rows-6 gap-4 h-[550px]">
+      <div class="col-span-8 row-span-3 overflow-hidden rounded-3xl shadow-sm hover:shadow-xl transition-all duration-700">
+        <img src="./Outlet.png" class="w-full h-full object-cover hover:scale-105 transition duration-1000" alt="Main Outlet">
+      </div>
+      <div class="col-span-4 row-span-3 overflow-hidden rounded-3xl shadow-sm hover:shadow-xl transition-all duration-700">
+        <img src="./interior.png" class="w-full h-full object-cover hover:scale-105 transition duration-1000" alt="Interior">
+      </div>
+      <div class="col-span-4 row-span-3 overflow-hidden rounded-3xl shadow-sm hover:shadow-xl transition-all duration-700">
+        <img src="./Gown.png" class="w-full h-full object-cover hover:scale-105 transition duration-1000" alt="Couture">
+      </div>
+      <div class="col-span-8 row-span-3 overflow-hidden rounded-3xl shadow-sm hover:shadow-xl transition-all duration-700">
+        <img src="./Perfume.png" class="w-full h-full object-cover hover:scale-105 transition duration-1000" alt="Products">
+      </div>
+    </div>
+    
+    <div class="space-y-12 lg:pl-10">
+      <div>
+        <span class="text-[#c19a6b] uppercase text-[10px] font-bold tracking-[0.4em] mb-4 block">Our Presence</span>
+        <h2 class="text-5xl md:text-6xl font-serif italic text-[#1c120c] mb-6">Visit Our <br> Flagship Stores</h2>
+        <p class="text-[#6b4f3a] text-sm leading-relaxed max-w-md">Experience the essence of Naju Aura in person. Our showrooms in Brahmanbaria offer exclusive collections and personalized styling sessions.</p>
+      </div>
+      
+      <div class="space-y-6">
+        <div class="group flex items-center p-6 bg-white border border-[#f0e6dd] rounded-2xl hover:border-[#c19a6b] hover:shadow-md transition-all duration-500">
+          <div class="w-14 h-14 rounded-full bg-[#fafaf9] flex items-center justify-center text-[#c19a6b] group-hover:bg-[#c19a6b] group-hover:text-white transition-all duration-500">
+            <i class="fa-solid fa-location-dot text-xl"></i>
+          </div>
+          <div class="ml-6">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-[#1c120c]">Kandipara Branch</h4>
+            <p class="text-[13px] text-[#6b4f3a] mt-1">Naju Aura Tower, Main Road, Brahmanbaria.</p>
+          </div>
         </div>
 
-        <div class="flex items-center space-x-8 text-white">
-            <div class="group relative cursor-pointer">
-                <i class="fa-solid fa-cart-shopping text-lg group-hover:text-[#C5A059] transition"></i>
-                <span class="absolute -top-2 -right-2 bg-[#C5A059] text-black text-[8px] font-black px-1.5 rounded-full">0</span>
-            </div>
-            <i class="fa-solid fa-magnifying-glass text-lg cursor-pointer hover:text-white"></i>
+        <div class="group flex items-center p-6 bg-white border border-[#f0e6dd] rounded-2xl hover:border-[#c19a6b] hover:shadow-md transition-all duration-500">
+          <div class="w-14 h-14 rounded-full bg-[#fafaf9] flex items-center justify-center text-[#c19a6b] group-hover:bg-[#c19a6b] group-hover:text-white transition-all duration-500">
+            <i class="fa-solid fa-store text-xl"></i>
+          </div>
+          <div class="ml-6">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-[#1c120c]">Sadar Showroom</h4>
+            <p class="text-[13px] text-[#6b4f3a] mt-1">Elite Plaza, Hospital Road, Brahmanbaria.</p>
+          </div>
         </div>
-    </nav>
+      </div>
 
-    <section class="relative h-[100vh] flex items-center justify-center overflow-hidden bg-white">
-        <div class="absolute inset-0 z-0">
-            <img src="./hero.png" class="w-full h-full object-cover opacity-90 transition duration-[3s]">
-            <div class="absolute inset-0 bg-gradient-to-r from-white/40 via-transparent to-transparent"></div>
+      <button class="w-full sm:w-auto px-12 py-5 text-white font-bold uppercase text-[10px] tracking-widest rounded-full bg-gradient-to-r from-[#1c120c] to-[#3d2b1f] hover:from-[#c19a6b] hover:to-[#a67c52] shadow-lg transform hover:-translate-y-1 transition-all duration-500">
+        Get Directions & Hours
+      </button>
+    </div>
+
+  </div>
+</section>
+
+  <section id="footwear" class="py-32 px-6 md:px-20 bg-[#f7efe9]">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16 bg-white p-10 rounded-[3rem] border border-[#f0e6dd]">
+      <div class="md:w-1/2 overflow-hidden rounded-[2rem]">
+        <img src="./Shoes.png" class="w-full h-[400px] object-cover hover:scale-105 transition duration-1000">
+      </div>
+      <div class="md:w-1/2">
+        <span class="text-[#c19a6b] uppercase font-bold text-[10px] tracking-[0.4em] mb-4 block">Elite Footwear</span>
+        <h2 class="text-4xl md:text-6xl font-serif italic mb-6 leading-tight">The Aura Walk</h2>
+        <p class="text-[#6b4f3a] mb-10 text-sm leading-relaxed">Handcrafted using the finest Italian leather, designed for unmatched presence and timeless comfort.</p>
+        <button class="px-14 py-4 text-white font-bold uppercase text-[10px] tracking-widest rounded-full bg-gradient-to-r from-[#c19a6b] to-[#a67c52] hover:shadow-lg transition-all transform hover:-translate-y-1">Discover Collection</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#1c120c] text-[#e8d5c4] py-20 px-6 md:px-20">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-16">
+      <div class="space-y-6">
+        <h2 class="text-3xl text-white font-serif italic">Naju Aura</h2>
+        <p class="text-[11px] opacity-60 leading-relaxed tracking-wide">Redefining luxury for the sophisticated soul of Brahmanbaria.</p>
+        <div class="flex space-x-6 text-xl">
+          <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+          <i class="fa-brands fa-tiktok hover:text-white cursor-pointer"></i>
         </div>
-        
-        <div class="relative z-10 text-center px-6">
-            <p class="text-black uppercase tracking-[0.8em] text-[11px] mb-8 font-black">Brahmanbaria • Collection 2026</p>
-            <h1 class="font-['Cormorant_Garamond'] text-6xl md:text-[8rem] italic text-black leading-tight mb-12 mix-blend-multiply">
-                Modern <span class="not-italic font-light">Elegance.</span>
-          </h1>
-            <a href="#couture" class="group relative inline-block px-14 py-5 bg-black text-white text-[11px] tracking-[0.3em] font-black uppercase overflow-hidden transition-all duration-500 hover:bg-[#B38B40]">
-                Explore The Look
-            </a>
+      </div>
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-8">Navigation</h4>
+        <nav class="flex flex-col space-y-4 text-[10px] uppercase tracking-widest opacity-80">
+          <a href="#couture" class="hover:text-white transition">Couture</a>
+          <a href="#beauty" class="hover:text-white transition">Beauty</a>
+          <a href="#footwear" class="hover:text-white transition">Footwear</a>
+        </nav>
+      </div>
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-8">Aura Club</h4>
+        <div class="flex border-b border-white/20 pb-2">
+          <input type="email" placeholder="EMAIL ADDRESS" class="bg-transparent w-full text-[10px] outline-none placeholder:text-white/30 text-white">
+          <button class="text-[#c19a6b] font-bold text-[10px] hover:text-white">JOIN</button>
         </div>
-    </section>
-    <section id="couture" class="py-32 px-6 md:px-20 max-w-[1700px] mx-auto bg-[#E5E2DC]">
-        <div class="flex items-baseline space-x-6 mb-24 border-b border-black/10 pb-10">
-            <h2 class="font-['Cormorant_Garamond'] text-5xl md:text-8xl text-black italic">Aura Couture</h2>
-            <span class="text-[#C5A059] text-[10px] tracking-[0.5em] uppercase font-bold">The Art of Dressing</span>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
-            <div class="group">
-                <div class="overflow-hidden aspect-[1/1] bg-[#D1CDC4] mb-10 rounded-sm">
-                    <img src="./Velvet Gown.png" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-[1.5s]">
-                </div>
-                <div class="flex justify-between items-end">
-                    <div>
-                        <h3 class="font-['Cormorant_Garamond'] text-4xl text-black">Velvet Gown</h3>
-                        <p class="text-[10px] text-gray-500 uppercase tracking-[0.3em] mt-3 italic">Midnight Collection</p>
-                    </div>
-                    <span class="text-xl font-light">$450.00</span>
-                </div>
-            </div>
-
-            <div class="group md:mt-40">
-                <div class="overflow-hidden aspect-[1/1] bg-[#D1CDC4] mb-10 rounded-sm">
-                    <img src="./Dress.png" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-[1.5s]">
-                </div>
-                <div class="flex justify-between items-end">
-                    <div>
-                        <h3 class="font-['Cormorant_Garamond'] text-4xl text-black">Silk Cocktail</h3>
-                        <p class="text-[10px] text-gray-500 uppercase tracking-[0.3em] mt-3 italic">Crimson Luxe</p>
-                    </div>
-                    <span class="text-xl font-light">$380.00</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="beauty" class="py-32 bg-[#2D2D2D] text-white px-6 md:px-20">
-        <div class="max-w-[1600px] mx-auto">
-            <h2 class="font-['Cormorant_Garamond'] text-5xl md:text-7xl italic mb-20 text-center">The <span class="text-[#C5A059]">Beauty</span> Edit.</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="group bg-[#363636] p-8 border border-white/5 hover:border-[#C5A059]/30 transition-all duration-500">
-                    <img src="./serum.png" class="w-full aspect-[4/5] object-cover mb-8 opacity-70 group-hover:opacity-100 transition duration-700">
-                    <h4 class="text-[11px] uppercase tracking-widest font-bold mb-2">Aura Glow Serum</h4>
-                    <p class="text-[9px] text-gray-400 uppercase tracking-[0.3em]">Active Repair</p>
-                </div>
-                <div class="group bg-[#363636] p-8 border border-white/5 hover:border-[#C5A059]/30 transition-all duration-500 md:translate-y-12">
-                    <img src="./lipstick.png" class="w-full aspect-[4/5] object-cover mb-8 opacity-70 group-hover:opacity-100 transition duration-700">
-                    <h4 class="text-[11px] uppercase tracking-widest font-bold mb-2">Velvet Crimson</h4>
-                    <p class="text-[9px] text-gray-400 uppercase tracking-[0.3em]">Matte Essence</p>
-                </div>
-                <div class="group bg-[#363636] p-8 border border-white/5 hover:border-[#C5A059]/30 transition-all duration-500">
-                    <img src="./pearl.png" class="w-full aspect-[4/5] object-cover mb-8 opacity-70 group-hover:opacity-100 transition duration-700">
-                    <h4 class="text-[11px] uppercase tracking-widest font-bold mb-2">Radiant Pearl</h4>
-                    <p class="text-[9px] text-gray-400 uppercase tracking-[0.3em]">Complexion Elixir</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="footwear" class="py-44 bg-[#DCD9D3]">
-        <div class="max-w-[1500px] mx-auto px-6 flex flex-col xl:flex-row items-center gap-24">
-            <div class="w-full xl:w-1/2 relative">
-                <div class="absolute inset-0 bg-black/10 translate-x-6 translate-y-6 -z-10"></div>
-                <img src="./Shoes.png" class="w-full h-full object-cover shadow-2xl rounded-sm">
-            </div>
-            <div class="w-full xl:w-1/2">
-                <span class="text-[#C5A059] text-[10px] uppercase tracking-[0.8em] font-black mb-6 block">Legacy Steps</span>
-                <h2 class="font-['Cormorant_Garamond'] text-7xl md:text-8xl text-black italic mb-12 leading-none">The Aura Walk.</h2>
-                <p class="text-gray-300 font-light leading-relaxed mb-16 max-w-md">Defined by precision and crafted for the elite. Naju Aura footwear brings Italian craftsmanship to Brahmanbaria.</p>
-                <button class="px-16 py-6 border border-black text-black text-[11px] uppercase tracking-[0.5em] font-black hover:bg-black hover:text-white transition-all duration-500">View Catalog</button>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-[#0A0A0A] pt-32 pb-12 px-6 md:px-20 border-t border-white/[0.05]">
-        <div class="max-w-[1700px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-24 mb-32">
-            <div class="md:col-span-1">
-                <h2 class="font-['Cormorant_Garamond'] text-4xl text-white tracking-widest mb-10 italic">Naju Aura</h2>
-                <p class="text-gray-300 text-[10px] tracking-[0.3em] leading-loose uppercase italic mb-10">Luxury Minimalism & Professional Excellence.</p>
-                <div class="flex space-x-6 text-gray-300">
-                    <i class="fa-brands fa-instagram hover:text-white text-xl cursor-pointer"></i>
-                    <i class="fa-brands fa-tiktok hover:text-white text-xl cursor-pointer"></i>
-                </div>
-            </div>
-
-            <div class="md:col-span-1">
-                <h4 class="text-white text-[10px] uppercase tracking-[0.6em] font-black mb-10 border-b border-white/[0.05] pb-2">Collections</h4>
-                <ul class="space-y-4 text-[11px] uppercase tracking-[0.4em] text-gray-300 font-medium">
-                    <li><a href="#couture" class="hover:text-white transition">Couture</a></li>
-                    <li><a href="#beauty" class="hover:text-white transition">Beauty</a></li>
-                    <li><a href="#footwear" class="hover:text-white transition">Footwear</a></li>
-                </ul>
-            </div>
-
-            <div class="md:col-span-2">
-                <h4 class="text-white text-[10px] uppercase tracking-[0.6em] font-black mb-10 border-b border-white/[0.05] pb-2">The Legacy Club</h4>
-                <p class="text-gray-300 text-[11px] mb-12 uppercase tracking-[0.3em] italic">Subscribe for early access to our seasonal bespoke designs.</p>
-                <div class="flex border-b border-white/10 pb-5">
-                    <input type="email" placeholder="YOUR EMAIL ADDRESS" class="bg-transparent w-full outline-none text-[11px] tracking-[0.5em] text-white placeholder:text-gray-700 uppercase">
-                    <button class="text-[#C5A059] text-[11px] font-black hover:text-white transition">JOIN</button>
-                </div>
-                <div class="mt-16 text-[9px] text-gray-300 tracking-[0.5em] uppercase italic">
-                    <i class="fa-solid fa-location-dot mr-2"></i> Brahmanbaria, Bangladesh
-                </div>
-            </div>
-        </div>
-
-        <div class="text-center pt-12 border-t border-white/[0.02]">
-            <p class="text-[9px] text-gray-800 uppercase tracking-[1em] font-black">&copy; 2026 NAJU AURA LUXURY | ALL RIGHTS RESERVED</p>
-        </div>
-    </footer>
+      </div>
+    </div>
+    <div class="mt-20 pt-8 border-t border-white/5 text-center text-[9px] tracking-[0.4em] opacity-40 uppercase">
+      &copy; 2026 Naju Aura | Crafted by Najiba
+    </div>
+  </footer>
 
 </body>
 </html>
