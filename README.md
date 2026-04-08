@@ -1,8 +1,6 @@
 # ✨ Naju's Aura - Luxury Fashion & Skincare Landing Page
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/najiba-ta/Naju-Aura/main/assets/screenshot.png" alt="Naju Aura Banner" width="800">
-</p>
+
 
 ## 📝 Project Overview
 **Naju-Aura** is a premium, high-end landing page designed for luxury fashion and skincare brands. This project focuses on sophisticated visual storytelling, featuring a clean minimalist layout, elegant typography, and a seamless responsive experience. It is built entirely with pure HTML and CSS to demonstrate high-quality UI design skills.
